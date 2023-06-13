@@ -14,6 +14,6 @@ public class CartTest {
 		DigitalVideoDisc dvd3 = new DigitalVideoDisc("Aladin", "Animation", 18.99f);
 		anOrder.addDigitalVideoDisc(dvd3);
 
-        anOrder.print();
+        anOrder.printCart();
     }
 }
